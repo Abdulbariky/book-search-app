@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import BookList from "./BookList";
+
 
 const SearchBook = () => {
     const [books, setBooks] = useState([]);
@@ -9,7 +11,7 @@ const SearchBook = () => {
     }, []);
 
     const getBooks = async () => {
-        const res = await fetch('https://www.googleapis.com/books/v1/volumes?q=java:keyes&key=AIzaSyDa1-TjhN4Loxp4-qQlo7eybpfbGsMIgYI');
+        const res = await fetch('https://www.googleapis.com/books/v1/volumes?q=reactjs:keyes&key=AIzaSyDa1-TjhN4Loxp4-qQlo7eybpfbGsMIgYI');
         const data = await res.json();
         console.log(data.items);
         setBooks(data.items);
@@ -17,9 +19,7 @@ const SearchBook = () => {
 
     return (
         <div>
-            {books.map((book) => (
-                <h1 key={book.id}>{book.volumeInfo.title}</h1>
-            ))}
+         <BookList books={books} />
         </div>
     );
 }
