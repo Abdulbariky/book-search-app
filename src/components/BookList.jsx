@@ -1,19 +1,19 @@
+// BookList.js (Updated)
 import React from 'react';
+import Book from './Book';
 
-const BookList = ({ books }) => {
-  if (!books) {
-    return null;
-  }
+const BookList = ({ books, onToggleFavorite }) => {
+    if (!books || books.length === 0) {
+        return <div>No books found.</div>;
+    }
 
-  return (
-    <div>
-      {books.map((book) => (
-        <div className="book-container">
-          {book.volumeInfo.imageLinks && <img src={book.volumeInfo.imageLinks.smallThumbnail} alt="" />}
+    return (
+        <div>
+            {books.map((book, index) => (
+                <Book key={index} book={book} onToggleFavorite={onToggleFavorite} />
+            ))}
         </div>
-      ))}
-    </div>
-  );
+    );
 }
 
 export default BookList;
