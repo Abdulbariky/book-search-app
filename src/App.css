@@ -19,7 +19,7 @@
 }
 
 .search-bar {
-  background-image: url('background-image.jpg'); /* Specify your background image */
+  
   background-size: cover;
   padding: 20px;
   color: white; /* Text color on the search bar */
