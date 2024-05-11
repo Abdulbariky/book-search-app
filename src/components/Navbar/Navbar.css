@@ -66,10 +66,12 @@
     .nav-link{
         color: var(--black-color);
         font-size: 1.7rem;
-        font-weight: 500!important;
+        font-weight: 700!important;
         opacity: 0.8;
     }
     .navbar-nav{
         display: flex;
     }
 }
+
+.text-primary{ color: var(--purple-color);}
