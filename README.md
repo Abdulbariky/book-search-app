@@ -2,6 +2,19 @@
 
 This is a simple book search app that allows users to search for books by title, author, or genre. It utilizes the openLibrary API to fetch book data and display it to the user.
 
+![Screenshot from 2024-05-11 21-35-22](https://github.com/Abdulbariky/book-search-app/assets/162283176/873a664f-eb1d-46d4-83e8-8633019f8271)
+
+![Screenshot from 2024-05-11 21-36-12](https://github.com/Abdulbariky/book-search-app/assets/162283176/ca93e91f-66a1-4b16-b394-ef5bece571c7)
+
+![Screenshot from 2024-05-11 21-37-25](https://github.com/Abdulbariky/book-search-app/assets/162283176/f09cd680-0884-4219-b37d-ea3d62bc2e41)
+
+![Screenshot from 2024-05-11 21-38-56](https://github.com/Abdulbariky/book-search-app/assets/162283176/8eefe85d-1611-4f09-b3c4-44d3bd0ecd98)
+
+![Screenshot from 2024-05-11 21-39-24](https://github.com/Abdulbariky/book-search-app/assets/162283176/4d4c78ce-4bfc-49c1-aac4-14d0e60d19ca)
+
+![Screenshot from 2024-05-11 21-40-15](https://github.com/Abdulbariky/book-search-app/assets/162283176/0efd87de-a3f7-40c6-b320-3970d3f902ff)
+
+
 ## Features
 
 - Search for books by title, author, or genre.
