@@ -21,6 +21,10 @@ This is a simple book search app that allows users to search for books by title,
 - View detailed information about each book, including its title, author(s), publisher, publication date, and description.
 - Save favorite books to a reading list for future reference.
 
+## Live Link
+
+[BOOK BAR](https://book-search-app-kappa.vercel.app/)
+
 ## Technologies Used
 
 - React.js
