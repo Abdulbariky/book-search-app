@@ -81,5 +81,9 @@ phone number: 0719103223
 
 
 ## Copyright and License Information
+
+This project is licensed under the MIT License.
+
 Copyright (C) [2024] [Abdulbarik]
+
 # BOOK BAR
