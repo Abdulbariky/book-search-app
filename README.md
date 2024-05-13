@@ -85,6 +85,5 @@ phone number: 0719103223
 This project is licensed under the terms of the MIT [LICENSE](LICENSE) 
 
 
-Copyright (C) [2024] [Abdulbarik]
 
 # BOOK BAR
